@@ -1,0 +1,15 @@
+../Drivers/CMSIS/Include/core_cm7.h:2147:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2265:22:SCB_InvalidateICache	4	static,ignoring_inline_asm
+../Drivers/CMSIS/Include/core_cm7.h:2518:22:SCB_CleanInvalidateDCache_by_Addr	32	static,ignoring_inline_asm
+../Core/Src/main.c:89:5:main	40	static
+../Core/Src/main.c:218:6:SystemClock_Config	88	static
+../Core/Src/main.c:273:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:308:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:343:5:write	16	static
+../Core/Src/main.c:349:13:goto_bootloader	8	static
+../Core/Src/main.c:355:6:erase_flash	32	static
+../Core/Src/main.c:371:6:program_flash	24	static
+../Core/Src/main.c:379:6:readLED_flash	16	static
+../Core/Src/main.c:392:6:readTXT_flash	24	static
+../Core/Src/main.c:406:13:InvalidateFlashRange	32	static
+../Core/Src/main.c:423:6:Error_Handler	4	static,ignoring_inline_asm
